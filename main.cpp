@@ -58,7 +58,7 @@ int main() {
     }
 
     // When player 2 runs out of all attempts, the loop automatically exits and the program outputs the correct code
-    cout << "You lose. The correct answer is: ";
+    cout << "\nYou lose. The correct answer is: ";
     displayCode(userNums, CODE_SIZE);
 
     return 0;
